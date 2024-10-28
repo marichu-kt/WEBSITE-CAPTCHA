@@ -1,0 +1,75 @@
+body {
+    --units: 1.5vmax;
+    --brick1: #CC0000;
+    --brick2: #DD0000;
+    --lines: #565656;
+    --gp-ln: 50%/calc(var(--units) * 10) calc(var(--units) * 5);
+    --gp-cn: 50%/calc(var(--units) * 5) calc(var(--units) * 5);
+    height: 100vh;
+    background: 
+        repeating-conic-gradient(from 90deg at 95% 55%, var(--lines) 0% 25%, #fff0 0% 100%) var(--gp-cn), 
+        repeating-linear-gradient(180deg, var(--lines) 0 5%, #fff0 0 50%, var(--lines) 0 55%, var(--brick2) 0 100% ) var(--gp-ln), 
+        repeating-linear-gradient(90deg, var(--brick1) 0 47.5%, var(--lines) 0 50%, var(--brick1) 0 97.5%, var(--lines) 0 100% ) var(--gp-ln);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.captcha-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 80%; 
+    margin: 0 auto; 
+}
+
+canvas {
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    width: 79%; 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="text"] {
+    margin-top: 10px;
+    padding: 10px;
+    width: 79%; 
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.main-content {
+    text-align: center;
+}
+
+#errorMessage {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#countdownDisplay {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: black;
+}

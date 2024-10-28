@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPTCHA</title>
+    <link rel="stylesheet" href="captcha.css">
+</head>
+<body>
+    <div id="captchaContainer" class="captcha-container">
+        <h2 style="font-family: Arial, sans-serif;">Resuelve el CAPTCHA</h2>
+        <canvas id="captchaCanvas" width="270" height="100"></canvas>
+        <button id="refreshCaptcha">Refrescar</button>
+        <br>
+        <input type="text" id="captchaInput" placeholder="Introduce el CAPTCHA">
+        <br>
+        <button id="submitCaptcha">Enviar</button>
+        <p id="errorMessage" class="error-message"></p>
+    </div>
+
+    <div id="mainContent" class="main-content" style="display:none;">
+        <h1>¡Bienvenido al sitio web!</h1>
+        <p>Has resuelto correctamente el CAPTCHA.</p>
+    </div>
+
+    <script src="captcha.js"></script>
+</body>
+</html>
