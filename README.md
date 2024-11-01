@@ -6,13 +6,6 @@ Welcome to my Website! This page is intended to describe the purpose or main con
 ![Icono](/images/banner.png)
 
 
-## Author Info
-
-- Name: [Mario-Martínez-Lozano]
-- Course: [Web-Development]
-- Group: [2-C]
-
-
 ## Description
 
 This project uses HTML, CSS, and JavaScript to create a CAPTCHA system, securing specific site routes by verifying that users are human before granting access.
