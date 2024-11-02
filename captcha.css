@@ -5,7 +5,11 @@ body {
     --lines: #565656;
     --gp-ln: 50%/calc(var(--units) * 10) calc(var(--units) * 5);
     --gp-cn: 50%/calc(var(--units) * 5) calc(var(--units) * 5);
+    margin: 0; /* Elimina el margen para ajustar completamente */
+    padding: 0;
     height: 100vh;
+    width: 100vw; 
+    overflow: hidden; 
     background: 
         repeating-conic-gradient(from 90deg at 95% 55%, var(--lines) 0% 25%, #fff0 0% 100%) var(--gp-cn), 
         repeating-linear-gradient(180deg, var(--lines) 0 5%, #fff0 0 50%, var(--lines) 0 55%, var(--brick2) 0 100% ) var(--gp-ln), 
@@ -14,6 +18,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 
 .captcha-container {
     text-align: center;
