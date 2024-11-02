@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
     let captchaCanvas = document.getElementById('captchaCanvas');
     let captchaInput = document.getElementById('captchaInput');
     let errorMessage = document.getElementById('errorMessage');
-    let mainContent = document.getElementById('mainContent');
     let captchaContainer = document.getElementById('captchaContainer');
     let refreshCaptcha = document.getElementById('refreshCaptcha');
     let submitCaptcha = document.getElementById('submitCaptcha');
@@ -115,13 +114,10 @@ document.addEventListener('DOMContentLoaded', function() {
         if (captchaInput.value === currentCaptcha) {
             clearTimeout(timer);
             clearInterval(countdownTimer);
-            captchaContainer.style.display = 'none';
-            mainContent.style.display = 'block';
             sessionStorage.setItem('captchaResolved', 'true');
-            window.location.href = 'inicio.html'; // Redirigir después de resolver
+            window.location.href = 'index.html';
         } else {
             errorMessage.textContent = 'El CAPTCHA no es correcto, intenta de nuevo.';
         }
     });
 });
-
