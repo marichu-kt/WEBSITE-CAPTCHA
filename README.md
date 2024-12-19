@@ -12,7 +12,7 @@ This project uses HTML, CSS, and JavaScript to create a CAPTCHA system, securing
 
 ## Content 📝
 
-- [Captcha](captcha.html)
+- [Captcha](index.html)
 
 
 ## Configuration ⚙️
