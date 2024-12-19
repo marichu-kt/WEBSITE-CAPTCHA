@@ -1,6 +1,6 @@
 # This repo is about the CAPTCHA with HTML/CSS/JS 🌐
 
-Welcome to my Website! This page is intended to describe the purpose or main content of the page. I hope you find the information you are looking for! [Live Website CAPTCHA](https://marichu-kt.github.io/WEBSITE-CAPTCHA/index.html)
+Welcome to my Website! This page is intended to describe the purpose or main content of the page. I hope you find the information you are looking for! [Live Website CAPTCHA](https://marichu-kt.github.io/WEBSITE-CAPTCHA/)
 
 ![Icono](/images/banner.png)
 
