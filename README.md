@@ -3,7 +3,7 @@
 Welcome to my Website! This page is intended to describe the purpose or main content of the page. I hope you find the information you are looking for!
 
 
-![Icono](/images/baner.png)
+![Icono](/images/banner.png)
 
 
 ## Description 📋
